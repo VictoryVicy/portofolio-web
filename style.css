@@ -1,0 +1,103 @@
+*, 
+html {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(white, #273036);  
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.desc {
+    text-align: justify;
+}
+
+
+.sect1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.sect2 {
+        display: flex;
+        height: 90vh;
+}
+
+.sect3 {
+    height: 100vh;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container {
+width: 100%;
+max-width: 650px;
+margin:0 auto;
+padding: 20px;
+border-radius: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+min-height: 100vh;
+background-color: #273036;
+}
+
+.input-row {
+    margin-bottom: 10px;
+}
+.input-row label {
+    display: block;
+    margin-bottom: 3px;
+}
+.input-row input,
+.input-row textarea{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+.input-row textarea{
+    height: 100px;
+}
+.input-row input[type="submit"]{
+    width: 100px;
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.success {
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 3px;
+    font-synthesis: 14px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
